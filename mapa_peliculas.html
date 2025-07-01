@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_93f3bc8ea1a0ac3629d65a28c0b37509 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_93f3bc8ea1a0ac3629d65a28c0b37509" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_93f3bc8ea1a0ac3629d65a28c0b37509 = L.map(
+                "map_93f3bc8ea1a0ac3629d65a28c0b37509",
+                {
+                    center: [35.0, -45.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_67a23f091ac1b93461a687ea28df9bbf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_67a23f091ac1b93461a687ea28df9bbf.addTo(map_93f3bc8ea1a0ac3629d65a28c0b37509);
+        
+    
+            var marker_2a329c9e22dcd1d39992a0294f1dea20 = L.marker(
+                [43.655245, -79.333921],
+                {
+}
+            ).addTo(map_93f3bc8ea1a0ac3629d65a28c0b37509);
+        
+    
+            var icon_6fa65cbffc154a25428f2626610d7296 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16d248d5aee63b92be6931739d2ec262 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_79d215965842234305d19797e56f7aa8 = $(`<div id="html_79d215965842234305d19797e56f7aa8" style="width: 100.0%; height: 100.0%;"><b>Cómo perder a un hombre en 10 días</b> / Director: Donald Petrie<br> / Año de estreno: 2003<br></div>`)[0];
+                popup_16d248d5aee63b92be6931739d2ec262.setContent(html_79d215965842234305d19797e56f7aa8);
+            
+        
+
+        marker_2a329c9e22dcd1d39992a0294f1dea20.bindPopup(popup_16d248d5aee63b92be6931739d2ec262)
+        ;
+
+        
+    
+    
+                marker_2a329c9e22dcd1d39992a0294f1dea20.setIcon(icon_6fa65cbffc154a25428f2626610d7296);
+            
+    
+            var marker_bb2e2b065cea965d61e38ba26795166f = L.marker(
+                [40.759152, -73.986706],
+                {
+}
+            ).addTo(map_93f3bc8ea1a0ac3629d65a28c0b37509);
+        
+    
+            var icon_3f0f458a0f61e5fe6689658fea23537f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef10f3ac6a18a15bfc280b8db44e460e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ae47cc931a70acc967ad67165212766 = $(`<div id="html_1ae47cc931a70acc967ad67165212766" style="width: 100.0%; height: 100.0%;"><b>Hamilton</b> / Director: Thomas Kail<br> / Año de estreno: 2020<br></div>`)[0];
+                popup_ef10f3ac6a18a15bfc280b8db44e460e.setContent(html_1ae47cc931a70acc967ad67165212766);
+            
+        
+
+        marker_bb2e2b065cea965d61e38ba26795166f.bindPopup(popup_ef10f3ac6a18a15bfc280b8db44e460e)
+        ;
+
+        
+    
+    
+                marker_bb2e2b065cea965d61e38ba26795166f.setIcon(icon_3f0f458a0f61e5fe6689658fea23537f);
+            
+    
+            var marker_4e7b16a6420f7e92c32fde7721d5d0a3 = L.marker(
+                [31.573057, -84.157059],
+                {
+}
+            ).addTo(map_93f3bc8ea1a0ac3629d65a28c0b37509);
+        
+    
+            var icon_a9451b7cad95a009b4e370e685354f4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5e3f3c3c54e63d8fd9ddd70da15d6c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0fbd5f01e20cca71e62b6389f8b43aa3 = $(`<div id="html_0fbd5f01e20cca71e62b6389f8b43aa3" style="width: 100.0%; height: 100.0%;"><b>La Forja</b> / Director: Alex Kendrick<br> / Año de estreno: 2024<br></div>`)[0];
+                popup_d5e3f3c3c54e63d8fd9ddd70da15d6c5.setContent(html_0fbd5f01e20cca71e62b6389f8b43aa3);
+            
+        
+
+        marker_4e7b16a6420f7e92c32fde7721d5d0a3.bindPopup(popup_d5e3f3c3c54e63d8fd9ddd70da15d6c5)
+        ;
+
+        
+    
+    
+                marker_4e7b16a6420f7e92c32fde7721d5d0a3.setIcon(icon_a9451b7cad95a009b4e370e685354f4d);
+            
+    
+            var marker_858c619672dd303831c58ca406d975d6 = L.marker(
+                [42.460092, -71.346422],
+                {
+}
+            ).addTo(map_93f3bc8ea1a0ac3629d65a28c0b37509);
+        
+    
+            var icon_6ab2b71c392d408fed79023fcca34d05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67398e046caafb8502e5578f8f033e85 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aaa7d32de2f9c12e9553322f7be531e6 = $(`<div id="html_aaa7d32de2f9c12e9553322f7be531e6" style="width: 100.0%; height: 100.0%;"><b>Mujercitas</b> / Director: Greta Gerwig<br> / Año de estreno: 2019<br></div>`)[0];
+                popup_67398e046caafb8502e5578f8f033e85.setContent(html_aaa7d32de2f9c12e9553322f7be531e6);
+            
+        
+
+        marker_858c619672dd303831c58ca406d975d6.bindPopup(popup_67398e046caafb8502e5578f8f033e85)
+        ;
+
+        
+    
+    
+                marker_858c619672dd303831c58ca406d975d6.setIcon(icon_6ab2b71c392d408fed79023fcca34d05);
+            
+    
+            var marker_b00b510b0da2490c90e389956fc60b76 = L.marker(
+                [53.22744, -1.611556],
+                {
+}
+            ).addTo(map_93f3bc8ea1a0ac3629d65a28c0b37509);
+        
+    
+            var icon_e9b27d5d872a91b8a6af82837d346b44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "pink",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57f52882752278bb07f7d5efbce7e4f6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4372ab047c3b6f6d52942549443087e = $(`<div id="html_c4372ab047c3b6f6d52942549443087e" style="width: 100.0%; height: 100.0%;"><b>Orgullo y Prejuicio</b> / Director: Joe Wright<br> / Año de estreno: 2005<br></div>`)[0];
+                popup_57f52882752278bb07f7d5efbce7e4f6.setContent(html_c4372ab047c3b6f6d52942549443087e);
+            
+        
+
+        marker_b00b510b0da2490c90e389956fc60b76.bindPopup(popup_57f52882752278bb07f7d5efbce7e4f6)
+        ;
+
+        
+    
+    
+                marker_b00b510b0da2490c90e389956fc60b76.setIcon(icon_e9b27d5d872a91b8a6af82837d346b44);
+            
+</script>
+</html>
