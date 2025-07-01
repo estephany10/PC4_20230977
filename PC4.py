@@ -70,6 +70,8 @@ if pagina_seleccionada == 'Inicio':
     # En la primera columna colocamos la imagen de perfil
     col1.image("foto_perfil.jpeg", caption='Esta soy yo :)', width=300)
 
+    col1.image("buen_pastor.png", caption='"Yo soy el buen pastor; el buen pastor su vida da por las ovejas" - Juan 10:11', width=300)
+
     # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
     # La función image toma como primer argumento el nombre del archivo de la imagen que se desea mostrar. 
     # En este caso, la imagen es "ellie.png". 
